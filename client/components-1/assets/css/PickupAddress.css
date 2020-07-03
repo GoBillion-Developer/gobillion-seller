@@ -1,0 +1,38 @@
+.pickup {
+  padding-top: 4rem;
+}
+.congratulations {
+  text-align: center;
+  display: none;
+}
+.congratulations h3 {
+  font-size: 1rem;
+}
+.your-address {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: none;
+}
+.row-pad-address {
+  padding-left: 1rem;
+}
+.headlabel-city {
+  margin-left: 1.15rem;
+}
+.pickup-field {
+  display: none;
+}
+.pickup-field-1 {
+  display: none;
+}
+.pickup-field-2 {
+  display: none;
+}
+.your-reg-office-address {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: none;
+}
+.reg-office-field {
+  display: none;
+}

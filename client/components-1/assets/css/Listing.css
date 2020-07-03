@@ -1,0 +1,70 @@
+.listing-sub {
+  border: 1px black solid;
+  border-radius: 4px;
+}
+.listing-col {
+  background-color: white;
+}
+.listing-col li {
+  list-style: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.panelist {
+  padding-top: 1.25rem;
+}
+.empty {
+  background-color: white;
+}
+.product-info {
+  height: 200px;
+  padding: 0.75rem;
+  padding-top: 0;
+
+  font-size: 1.125rem;
+}
+.product-image {
+  padding: 1.25rem;
+  padding-top: 0;
+  font-size: 1.25rem;
+}
+.form-right-align {
+  text-align: end;
+}
+.form-left-align {
+  text-align: start;
+}
+.addimage {
+  text-align: center;
+  padding-top: 0.75rem;
+}
+.upload-img img {
+  height: 80px;
+  width: 80px;
+  margin: 6rem;
+}
+
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 900px;
+    max-height: 800px;
+  }
+}
+
+/***/
+.inactive-sidebar {
+  color: #808080;
+}
+/**/
+
+/**/
+
+/*Scrollability*/
+.list-group-scrollable {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 400px;
+  padding-left: 0;
+}

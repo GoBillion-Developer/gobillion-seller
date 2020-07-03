@@ -1,0 +1,136 @@
+body {
+  background-color: #ededed;
+}
+.home-container {
+  padding-left: 2rem;
+}
+.user-pic img {
+  margin: 0 auto;
+  float: none;
+  height: 50%;
+  width: 50%;
+  border-radius: 50% !important;
+  display: block;
+  padding-top: 2rem;
+  border-radius: 2px;
+}
+.profile {
+  background-color: #ffffff;
+  border-radius: 1%;
+  height: 429px;
+}
+.home-right-card {
+  height: 429px;
+}
+.user-title {
+  text-align: center;
+}
+.store-name h6 {
+  padding: 2rem;
+  padding-bottom: 1rem !important;
+}
+.store-email h6 {
+  padding: 0 2rem;
+}
+.store-address h6 {
+  padding: 0 2rem;
+}
+.store-address {
+  padding-top: 1rem;
+}
+.card {
+  background-color: #ffffff;
+  height: 200px;
+}
+.card-bottom {
+  background-color: #ffffff;
+  height: 215px;
+}
+
+.nested h6 {
+  text-align: center;
+  padding: 2rem;
+}
+.row-nested h6 {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+.home-right {
+  text-align: center;
+  margin: 0 auto;
+}
+.home-right-card {
+  height: 429px;
+}
+
+.nested-bottom-1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+.nested-bottom-2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.nested-bottom-3 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/****/
+
+.central-row {
+  height: 50%;
+}
+
+.products {
+  text-align: center;
+  font-size: 50px;
+}
+.famousproduct-img {
+  padding-left: 3rem;
+}
+.famousproduct-name {
+  text-align: center;
+}
+
+.editbutton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.store-details {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  text-align: left;
+}
+.heading {
+  padding-top: 1rem;
+  font-size: 1.125rem;
+}
+.cheque li {
+  font-size: 0.95rem;
+}
+.upload-cheque h6 {
+  text-align: left;
+  padding-left: 1rem;
+}
+.uploadbutton {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  margin-left: auto;
+  justify-content: center;
+}
+.check-head {
+  text-align: left;
+  padding-left: 2rem;
+}
+.check-lists {
+  text-align: left;
+}
+
+/**/
+.bottom-card {
+  padding-bottom: 1rem;
+}
