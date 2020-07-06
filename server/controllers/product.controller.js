@@ -98,10 +98,9 @@ const create = async (req, res, next) => {
 };
 const listByUser = async (req, res) => {
   try {
-    let products = await Product.find({ seller: req.profile._id }).populate(
-      "seller",
-      "_id businessname"
-    );
+    let products = await Product.find({ seller: req.profile._id })
+      .populate("seller", "_id businessname")
+      .populate("ProductCatalog"); /*Needs to be completed */
 
     res.json(products);
   } catch (err) {

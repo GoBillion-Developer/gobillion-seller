@@ -44,6 +44,10 @@ const ProductSchema = new mongoose.Schema(
     fullfilment: {
       type: String,
     },
+    saleCount: {
+      type: Number,
+      default: 0,
+    },
 
     /*The seller need approval to add the product hence this field is important */
     approval: {

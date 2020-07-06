@@ -44,7 +44,7 @@ const SellerSchema = new mongoose.Schema({
     trim: true,
   },
   gstin: {
-    type: Number,
+    type: String,
     trim: true,
     required: "GSTIN is required",
   },

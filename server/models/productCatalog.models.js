@@ -11,7 +11,7 @@ const ProductCataogSchema = new mongoose.Schema(
       type: String,
     },
     stock: {
-      type: String,
+      type: Number,
     },
     weight: {
       type: String,
@@ -97,6 +97,9 @@ const ProductCataogSchema = new mongoose.Schema(
       type: String,
     },
     description: {
+      type: String,
+    },
+    gst: {
       type: String,
     },
   },
