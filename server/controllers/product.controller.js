@@ -1,5 +1,6 @@
 import Product from "../models/product.models";
 import ProductCatalog from "../models/productCatalog.models";
+const HSN = require("../models/HSN");
 import extend from "lodash/extend";
 import errorHandler from "./../helpers/dbErrorHandler";
 import formidable from "formidable";
@@ -53,13 +54,19 @@ const create = async (req, res, next) => {
     manufacturer: req.body.manufacturer || null,
     description: req.body.description || null,
   });
+  const newHSN = new HSN({
+    HSNCode: req.body.HSNCode || null,
+    taxRate: req.body.taxRate || null,
+    shipping: req.body.shipping || null,
+  });
   product.seller = req.profile;
   if (approved) {
     try {
       let result = await productdesc.save();
       product.productCatalog = result._id;
-      let result2 = await product.save();
-      res.json(result2);
+      let result2 = await newHSN.save();
+      let result3 = await product.save();
+      res.json(result3);
     } catch (err) {
       return res.status(400).json({
         error: errorHandler.getErrorMessage(err),
